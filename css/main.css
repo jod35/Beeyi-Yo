@@ -1,0 +1,120 @@
+:root{
+    --background:lightgray;
+    --white:white;
+    --green:green;
+    --red:rgb(230, 38, 38);
+    --yellow:rgb(197, 197, 8);
+    --blue:dodgerblue;
+    --darkgray:darkslategray;
+    --darkblue:navy;
+    --body-font:sans-serif;
+    --shadow:5px 15px 15px 5px rgba(0, 0, 0, 0.596);
+    --purple:purple;
+    --brown:rgb(75, 14, 14);
+}
+body{
+    background-color:var(--background);
+    font-family:var(--body-font);
+    padding: 40px;
+}
+
+.container{
+    background-color: var(--darkblue);
+    width: 25%;
+    margin: auto;
+    min-height:500px ;
+    box-shadow: var(--shadow);
+
+
+}
+.intro h1{
+    font-size: 40px;
+}
+.intro{
+    text-transform: uppercase;
+    background-color: var(--white);
+    line-height: 5px;
+    text-align: center;
+    height: 180px;
+    box-shadow: var(--shadow);
+    width: 80%;
+    color: var(--blue);
+    margin: auto;
+    transform: scale(1.6);
+    padding: 20px 0px 0px 0px;
+}
+.image{
+    background-image: linear-gradient(25deg,var(--darkblue),var(--red));
+    color:var(--white);
+    font-size: 10px;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.purple-text{
+    color: var(--purple);
+    font-size: 19px;
+}
+
+.intro-bottom{
+   background-color: var(--brown);
+   padding: 16px 5px 25px 5px;
+   font-size: 14px;
+   text-transform: lowercase;
+}
+.bouquets{
+    margin-top: 120px;
+    transform: scale(1.1);
+}
+.card{
+    
+    background-color: white;
+    transform: scale(1.5);
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    font-weight: bold;
+    height: 50px;
+    display: flex;
+    box-shadow: var(--shadow);
+}
+.bouquet-name{
+    width: 50%;
+    background-color: var(--green);
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 5px 0px 0px 10px;
+    text-align: center;
+}
+.unit{
+    font-size:8px;
+    text-transform: uppercase;
+    color:var(--darkgray);
+    margin: 3px 0px 20px 10px;
+
+}
+.price{
+    margin: 0px 0px 40px 30px;
+}
+.bouquet-price{
+    width: 50%;
+    font-weight: bold;
+    padding: px;
+}
+.access{
+    background-color: var(--green);
+
+}
+.family{
+    background-color: var(--red);
+}
+.compact{
+    background-color: var(--yellow);
+}
+.compact-plus{
+    background-color: var(--blue);
+}
+.premium{
+    background-color: lightslategray;
+}
+
